@@ -29,7 +29,7 @@ const TaskInputs = () => {
     const handleAddTask = (e) => {
         e.preventDefault();
         if (!userTodo.todo) {
-            toast.warning("Please add task first.")
+            toast.warning("Add the Task First")
             return;
         }
         dispatch(actionToAddTask(userTodo));
@@ -47,11 +47,11 @@ const TaskInputs = () => {
             <form className="row g-2 p-2">
                 <div className="col-sm-8 col-12">
                     <input type="text" value={userTodo.todo} onChange={handleChangeTodo} name="todo"
-                        className="form-control" id="inputPassword2" placeholder="Add todo here" />
+                        className="form-control" id="inputPassword2" placeholder="Add Your own todo here " />
                 </div>
                 <button type="submit"
                     className="btn add-task col-sm-3 col-6"
-                    onClick={handleAddTask}>Add task</button>
+                    onClick={handleAddTask}>Add Task</button>
             </form>
         </div>
     )

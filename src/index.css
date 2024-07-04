@@ -3,7 +3,7 @@
 }
 body {
   margin: 0px;
-  background: #ccedf3;
+  background-color: azure;
   animation: all 2s;
 }
 * {
@@ -26,24 +26,24 @@ body {
   font-weight: 900;
   font-size: 20px;
   color: #fff;
-  background: rgb(75, 230, 247);
+  background: rgb(5,17,19);
 }
 .todo-app {
   width: 100%;
-  background: #f6f4f4;
+  background: #827d7d;
 }
 
 .add-task {
   height: 35px;
   background: rgb(75, 230, 247);
   margin-left: 2px;
-  color: white;
+  color: rgb(108, 78, 184);
 }
 .add-task:hover {
   background: rgb(75, 230, 247);
 }
 .add-task:focus {
-  box-shadow: 0px 0px 10px rgb(8, 180, 168) !important;
+  box-shadow: 0px 0px 10px rgb(8, 7, 7) !important;
 }
 .form-control:hover {
   box-shadow: 0px 0px 10px rgb(8, 180, 168) !important;
@@ -66,7 +66,7 @@ ul {
   border-top-right-radius: 15px;
   margin-top: 10px;
   padding: 5px;
-  color: rgb(8, 180, 168);
+  color: rgb(33, 189, 189);
 }
 .taskList-box li:hover {
   box-shadow: 0px 0px 10px rgb(8, 180, 168);;;
@@ -83,14 +83,14 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: black;
+  color: rgb(12, 4, 6);
 }
 
 .icons-box {
   display: flex;
   padding: 3px;
   justify-content: space-around;
-  color: rgb(8, 180, 168);
+  color: rgb(15, 127, 207);
   font-size: 20px;
   gap: 20px;
 }
@@ -98,18 +98,18 @@ ul {
   cursor: pointer;
 }
 .toggles {
-  font-size: 30px;
+  font-size: 37px;
 }
 .toggles:hover {
   cursor: pointer;
 }
 .yes-no-btns {
-  gap: 20px;
+  gap: 40px;
   display: flex;
 }
 .yes-no-btns button {
-  color: white;
-  background: rgb(8, 180, 168);
+  color: rgb(243, 225, 234);
+  background: rgb(0, 18, 5);
   width: 65px;
   border: none;
   border-radius: 10px;

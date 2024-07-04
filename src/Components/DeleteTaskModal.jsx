@@ -34,7 +34,7 @@ const DeleteTaskModal = ({ SureToDelete,
                 }}>
                     <div style={{ display: "flex", flexDirection: "column" }}>
                         <div>
-                            Are you sure ?
+                            Move to Bin ?
                         </div>
                         <div className="yes-no-btns">
                             <button onClick={SureToDelete}  >Yes</button>

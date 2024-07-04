@@ -16,7 +16,6 @@ const App = () => {
 
   const dispatch = useDispatch();
   useEffect(() => {
-    //dispatching the actionCreator to fetch Data from local storage on refreshing or reloading page.
     dispatch(actionToFetchDataFromLocal());
   }, [])
 
@@ -24,14 +23,14 @@ const App = () => {
     <div className="container mt-5">
       <div className="app-box">
         <div className="top-of-todo">
-          To-Do App {" -->   "}
+          TODOS APP {" -->   "}
           {today_date}{" "}
           {curr_month}
           {" "},
           {" "}
           {today}
-        </div>
-        <Todo />
+          </div>
+        < Todo/>
       </div>
     </div>
   )
